@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SleepInChecker {
+public class warmup_sleepin {
 
     public static boolean sleepIn(boolean weekday, boolean vacation) {
         return !weekday || vacation;
