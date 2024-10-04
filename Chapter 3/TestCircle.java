@@ -2,6 +2,7 @@ public class TestCircle {
     public static void main(String[] args) {
         Circle a = new Circle();
         Circle b = new Circle();
+        Circle c = new Circle();
         
         a.setRadius(3);
         System.out.println("Circle A - Radius: " + a.getRadius());
@@ -12,5 +13,11 @@ public class TestCircle {
         System.out.println("Circle B - Radius: " + b.getRadius());
         System.out.println("Circle B - Diameter: " + b.getDiameter());
         System.out.println("Circle B - Area: " + b.getArea());
+        
+        c.setRadius(10);
+        System.out.println("Circle C - Radius: " + c.getRadius());
+        System.out.println("Circle C - Diameter: " + c.getDiameter());
+        System.out.println("Circle C - Area: " + c.getArea());
+
     }
 }
